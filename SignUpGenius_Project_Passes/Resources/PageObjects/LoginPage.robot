@@ -48,7 +48,7 @@ Incorrect Email Format and Correct Password
     Input Text  ${LoginPageEmailElement}  ${wrong_emailformat}
     Input Text  ${LoginPagePasswordElement}  ${password}
     Click Element  ${LoginPageLoginButtonElement}
-    Wait Until Element Does Not Contain  ${LoginPageEmailElement}  @
+    Element Should Not Contain  ${LoginPageEmailElement}  @
 
 
 Correct Email but no Password

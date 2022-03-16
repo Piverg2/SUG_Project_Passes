@@ -2,11 +2,9 @@
 LoginPageEmailElement="xpath://input[@id='email']"
 LoginPagePasswordElement="xpath://input[@id='pword']"
 LoginPageRememberMeElement="xpath://*[@id='LoginForm']/div/div[5]/div/label"
-LoginPageAccountIconElement="//*[@id='main-nav']/div[1]/div[1]/div"
+LoginPageAccountIconElement="xpath://*[@id='main-nav']/div/div[1]/div"
 LoginPageLoginButtonElement="xpath://input[@id='loginBtnId']"
 LoginPageErrorPopupElement="xpath://body/div[2]/div[1]/div[1]/div[1]"
-LoginPageErrorStatusElement="xpath://div[contains(text(),'You did not enter a valid email and password.')]"
-LoginPageErrorStatusElement2="/html[1]/body[1]/div[3]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/form[2]/div[1]/div[2]/div[1]/div[1]"
 
 # -- Event Page Locators --
 # Design Page
